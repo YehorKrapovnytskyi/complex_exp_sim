@@ -5,7 +5,7 @@ This project visualizes the connection between compound interest and the complex
 
 ## Some formulas
 Given an initial deposit $M_0$, which grows according to the compound interest rule, the amount of money after $n$ compounding intervals is:
-$$ M_n = M_0(1 + \frac{rT}{n})^{n}, $$
+$$M_n = M_0(1 + \frac{rT}{n})^{n},$$
 
 where  
 $M_n$ — accumulated wealth after time $T$ <br>
