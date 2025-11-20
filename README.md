@@ -20,7 +20,7 @@ $$\vec{M_i} = \vec{M}_{i-1} + \underbrace{j\cdot \frac{T}{n}\cdot \vec{M}_{i-1}}
 
 where  
 $\vec{M}_i$ — the position of the $\vec{M}$ vector at the $i$ th step <br>
-$\vec{M}_i$ — the position of the $\vec{M}$ vector at the $i$th step
+$\vec{M}_i$ — the position of the $\vec{M}$ vector at the $i$th step <br>
 $\Delta\vec{{M}}_{i}$ — a change in the position of the $\vec{M}$ vector at the $i$ th step <br>  
 
 In this model, the next position of the vector $\vec{M}$ is obtained by adding the current vector $\vec{M}$ to a version of itself that has been scaled and rotated 90° clockwise. By simulating this for different values of $n$, a circular movement pattern is obtained for every case. The radius of the circle at an every step is given by:
