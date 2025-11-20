@@ -5,14 +5,14 @@ This project visualizes the connection between compound interest and the complex
 
 ## Some formulas
 Given an initial deposit $M_0$, which grows according to the compound interest rule, the amount of money after $n$ compounding intervals is:
-$$M_n = M_0(1 + \frac{rT}{n})^{n},$$
+$$ M_n = M_0(1 + \frac{rT}{n})^{n}, $$
 
 where  
-$ M_n $ — accumulated wealth after time $T$ <br>
-$ M_0 $ — initial deposit <br>
-$ r $ — interest rate ($\sqrt{-1}$ in our case) <br>
-$ T $ — accumulation period <br>
-$ n $ — number of compounding intervals
+$M_n$ — accumulated wealth after time $T$ <br>
+$M_0$ — initial deposit <br>
+$r$ — interest rate ($\sqrt{-1}$ in our case) <br>
+$T$ — accumulation period <br>
+$n$ — number of compounding intervals
 
 A slighly different way to look at the change of $M$ on every step is to represent it as a vector on the complex plane with the following update rule: 
 
