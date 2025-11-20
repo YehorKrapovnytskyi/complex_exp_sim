@@ -24,13 +24,13 @@ $\Delta\vec{M}_{i}$ — a change in the position of the $\vec{M}$ vector at the 
 
 In this model, the next position of the vector $\vec{M}$ is obtained by adding the current vector $\vec{M}$ to a version of itself that has been scaled and rotated 90° clockwise. By simulating this for different values of $n$, a circular movement pattern is obtained for every case. The radius of the circle at an every step is given by:
 
-$$R_i  = R_{i - 1}\cdot \sqrt{1^2 + \left(\frac {T}{n}\right)^2 }$$
+$$R_i  = R_{i - 1}\cdot \sqrt{1^2 + \left(\frac{T}{n}\right)^2 }$$
 
 while the rotation angle is:
 
 $$\theta = \frac{T}{n}$$
 
-As $n$ goes to infinity, the vector $\vec{M}$ moves according to the trajectory of an ideal circle, because the radius doesn't blow up, while the rotation angle approaches the $\arctan\left(\frac{T}{n}\right)$. 
+As $n$ goes to infinity, the vector $\vec{M}$ moves according to the trajectory of an ideal circle, because the radius doesn't blow up, while the rotation angle approaches $\arctan\left(\frac{T}{n}\right)$. 
 
 ## Simulations
 
