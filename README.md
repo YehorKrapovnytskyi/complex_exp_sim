@@ -16,7 +16,7 @@ $n$ — number of compounding intervals
 
 A slighly different way to look at the change of $M$ on every step is to represent it as a vector on the complex plane with the following update rule: 
 
-$$ \vec{M_i} = \vec{M}_{i-1} + \underbrace{j\cdot \frac{T}{n}\cdot \vec{M}_{i-1}}_{\Delta\vec{{M}}_{i-1}} = \vec{M}_{i - 1} + \Delta\vec{{M}}_{i-1} \quad \text{for } i = 1, \dots, n $$
+$$\vec{M_i} = \vec{M}_{i-1} + \underbrace{j\cdot \frac{T}{n}\cdot \vec{M}_{i-1}}_{\Delta\vec{{M}}_{i-1}} = \vec{M}_{i - 1} + \Delta\vec{{M}}_{i-1} \quad \text{for } i = 1, \dots, n$$
 
 where  
 $ \vec{M}_i $ —  the position of the $ \vec{M} $ vector at the $i$ th step <br>
